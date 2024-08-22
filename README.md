@@ -27,7 +27,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 **João de Medeiros Andrade** - *contribuidor* - [joca-000](https://github.com/joca-000)\
 **Igor José de Alcântara Soares** - *contribuidor* - [IgorSoaresss](https://github.com/IgorSoaresss)\
-**Eduardo Américo Bezerra da Silva** - *contribuidor* - [EduardoAmericooo](https://github.com/EduardoAmericooo)\
+**Eduardo Américo Bezerra da Silva** - *contribuidor* - [EduardoAmericoo](https://github.com/EduardoAmericoo)\
 **Karoline de Andrade Santiago** - *contribuidor* - [kass200](https://github.com/kass200)
 
 ## AGRADECIMENTOS
