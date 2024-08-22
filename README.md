@@ -25,10 +25,10 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## AUTORES DO PROJETO
 
-**João de medeiros andrade** - *contribuidor* - [joca-000](https://github.com/joca-000)\
-**João de medeiros andrade** - *contribuidor* - [joca-000](https://github.com/joca-000)\
-**João de medeiros andrade** - *contribuidor* - [joca-000](https://github.com/joca-000)\
-**João de medeiros andrade** - *contribuidor* - [joca-000](https://github.com/joca-000)
+**João de Medeiros Andrade** - *contribuidor* - [joca-000](https://github.com/joca-000)\
+**Igor José de Alcântara Soares** - *contribuidor* - [joca-000](https://github.com/joca-000)\
+**Eduardo Américo Bezerra da Silva** - *contribuidor* - [joca-000](https://github.com/joca-000)\
+**Karoline de Andrade Santiago** - *contribuidor* - [joca-000](https://github.com/joca-000)
 
 ## AGRADECIMENTOS
 
