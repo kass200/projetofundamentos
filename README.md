@@ -31,8 +31,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 **Eduardo Américo Bezerra da Silva** - *contribuidor* - [EduardoAmericoo](https://github.com/EduardoAmericoo)\
 **Karoline de Andrade Santiago** - *contribuidor* - [kass200](https://github.com/kass200)
 
-## AGRADECIMENTOS
-
 ## DOCUMENTAÇÃO
 
 ![jira](imagens/jira.png)
