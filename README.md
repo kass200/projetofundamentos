@@ -16,8 +16,8 @@ EqualSpace é uma aplicação web dedicada à promoção da igualdade de gênero
 
 ## TECNOLOGIAS UTILIZADAS
 
-- **backEnd:**
-- **frontEnd:**
+- **backEnd:** Python/Django
+- **Banco de Dados:** Mysql
 
 ## LICENÇA
 
