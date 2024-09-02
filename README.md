@@ -32,3 +32,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## AGRADECIMENTOS
 
+## DOCUMENTAÇÃO
+
+![jira](imagens/jira.png)
+
