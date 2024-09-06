@@ -33,7 +33,9 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## DOCUMENTAÇÃO
 
+- **Quadro Jira**
 ![KanBoard](imagens/Kan%20Board%20Jira.png)
+- **Backlog**
 ![Backlog](imagens/Backlog%20Jira.png)
 
  - **sketches/storyboards:** https://www.figma.com/design/ZO84OXh7OwcOCs1hULaQJt/Untitled?node-id=0-1&node-type=CANVAS&t=nfoZZqEfO8grmmnM-0
