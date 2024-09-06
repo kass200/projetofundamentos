@@ -33,9 +33,10 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## DOCUMENTAÇÃO
 
-![jira](imagens/jira.png)
+![jira](imagens/Jira.png)
+![Backlog](imagens/Backlog%20Jira.png)
 
  - **sketches/storyboards:** https://www.figma.com/design/ZO84OXh7OwcOCs1hULaQJt/Untitled?node-id=0-1&node-type=CANVAS&t=nfoZZqEfO8grmmnM-0
 
- - **screencast do lo fi:** 
+ - **Link do drive onde está o screencast do lo fi:** https://drive.google.com/drive/folders/0AAQJ6etTcvP9Uk9PVA
 
