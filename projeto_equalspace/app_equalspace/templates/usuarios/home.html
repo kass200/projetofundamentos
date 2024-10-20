@@ -1,3 +1,5 @@
+{% load static %}
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -40,26 +42,124 @@
 </nav>
 <style>
   .btn-roxo {
-    background-color: #6f42c1; /* Cor roxa */
-    border-color: #6f42c1;     /* Cor da borda */
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
     color: white;
+    background-color: #a215d5; 
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
   }
   .btn-roxo:hover {
-    background-color: #5a359e; /* Cor mais escura ao passar o mouse */
+    background-color: #563e84; /* Cor mais escura ao passar o mouse */
     border-color: #5a359e;
   }
+  .news-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .news-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+  }
+  .news-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+     border-radius: 8px;
+  }
+  .btn-news {
+   display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .btn-news:hover {
+    background-color: #45a049;
+  }
+
+  .section-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #4CAF50; 
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #4CAF50; 
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
 </style>
 
 <div class="d-grid gap-6 col-6 mx-auto">
-  <button class="btn btn-roxo" type="button">FAZER DENUNCIA</button>
+  <a href="https://servicos.sds.pe.gov.br/delegacia/" target="_blank" class="btn-roxo">
+    <button type="button">Fazer Denúncia</button>
+  </a>
 </div>
 
-<h2>Notícias relevantes</h2>
-<div class="card" style="width: 18rem;">
-  <img src="mulheres.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="noticias.html" class="btn btn-primary">Saiba Mais</a>
+<h2 class="section-title">Notícias Relevantes</h2>
+
+
+<div class="news-container">
+  <!-- Card 1 -->
+  <div class="news-card">
+      <img src="{% static 'img/report1.jpg' %}" alt="Relatório Global de Equidade de Gênero 2024" class="news-img">
+      <h3>Brasil e o Relatório Global de Equidade de Gênero 2024</h3>
+      <p>O Brasil caiu para a 70ª posição no Índice Global de Disparidade de Gênero, com uma pontuação de 71,6%, 
+      uma redução em relação ao ano anterior. A paridade econômica feminina também apresentou uma leve queda, enquanto 
+      a participação no mercado de trabalho teve um pequeno aumento.</p>
+      <a href="https://forbes.com.br/forbes-mulher/2024/06/estamos-a-134-anos-da-igualdade-de-genero-segundo-forum-economico-mundial/" target="_blank" class="btn-news">Saiba mais</a>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="news-card">
+      <img src="{% static 'img/report2.jpg' %}" alt="Participação das Mulheres no Mercado de Trabalho" class="news-img">
+      <h3>Participação das Mulheres no Mercado de Trabalho</h3>
+      <p>As mulheres representam 42% da força de trabalho global, mas ainda enfrentam barreiras significativas, 
+      como discriminação salarial e dificuldade de acesso a cargos de liderança.</p>
+      <a href="https://www.invistanosestudos.com.br/mulheres/brasil-no-relatorio-global-de-equidade-de-genero-2024-avancos-e-desafios/" target="_blank" class="btn-news">Saiba mais</a>
+  </div>
+
+  <!-- Card 3 -->
+   
+  <div class="news-card">
+    <img src="{% static 'img/transparencia_salarial.jpg' %}" alt="Relatório de Transparência Salarial" class="news-img">
+    <h3>Relatório de Transparência Salarial no Brasil</h3>
+    <p>O primeiro Relatório de Transparência Salarial revela que as mulheres recebem 19,4% menos que os homens no Brasil. 
+    Apenas 32,6% das empresas têm políticas para incentivar a contratação de mulheres.</p>
+    <a href="https://www.gov.br/secom/pt-br/assuntos/noticias/2024/03/mulheres-ganham-19-4-a-menos-que-os-homens-revela-1o-relatorio-de-transparencia-salarial" target="_blank" class="btn-news">Saiba mais</a>
+  </div>
+
+  <div class="news-card">
+    <img src="{% static 'img/worldbank_report.jpg' %}" alt="Relatório do Banco Mundial" class="news-img">
+    <h3>Relatório do Banco Mundial sobre Desigualdade de Gênero</h3>
+    <p>O relatório "Mulheres, Empresas e Direito" de 2024 revela que a disparidade de gênero no ambiente de trabalho é maior do que se pensava. 
+    Mulheres ainda têm apenas dois terços dos direitos legais garantidos aos homens, especialmente em relação à proteção contra a violência e 
+    acesso a cuidados infantis.</p>
+    <a href="https://www.worldbank.org/pt/news/press-release/2024/03/04/new-data-show-massive-wider-than-expected-global-gender-gap" target="_blank" class="btn-news">Saiba mais</a>
   </div>
 </div>
