@@ -27,7 +27,7 @@
           <a class="nav-link active" aria-current="page" href="home.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="noticias.html">Notícias</a>
+          <a class="nav-link" href="{% url 'noticias' %}">Notícias</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="perfil.html" >Perfil</a>
@@ -41,6 +41,47 @@
   </div>
 </nav>
 <style>
+  .navbar {
+    background-color: #333 !important; /* Cor de fundo escura */
+    padding: 10px 20px;
+ }
+
+ .navbar-brand {
+    color: #fff !important;
+    font-size: 24px;
+    font-weight: bold;
+ }
+
+ .navbar-toggler {
+    border: none;
+ }
+
+ .navbar-nav .nav-link {
+    color: #fff !important;
+    margin-right: 15px;
+    padding: 8px 12px;
+    transition: background 0.3s, color 0.3s;
+ }
+
+ .navbar-nav .nav-link:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white !important;
+  }
+
+ .form-control {
+    border-radius: 5px;
+  }
+ 
+ .btn-outline-success {
+    color: white !important;
+    border-color: white !important;
+ }
+
+ .btn-outline-success:hover {
+    background-color: #4CAF50;
+    border-color: #4CAF50 !important;
+ }
   .btn-roxo {
     display: inline-block;
     padding: 10px 20px;

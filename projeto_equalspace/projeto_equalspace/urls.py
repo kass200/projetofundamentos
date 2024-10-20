@@ -22,4 +22,5 @@ urlpatterns = [
     # rota, view responsável, nome de referência
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
+    path('noticias/', views.noticias, name='noticias'),
 ]

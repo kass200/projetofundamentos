@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Notícias{% endblock %}
+
+{% block content %}
+<h2 class="section-title">Todas as Notícias</h2>
+<div class="news-list">
+    <!-- Adicione aqui os cards das notícias, como já feito na página "home" -->
+    <div class="news-card">
+        <img src="{% static 'img/noticia1.jpg' %}" alt="Notícia 1" class="news-img">
+        <h3>Título da Notícia 1</h3>
+        <p>Resumo da notícia 1...</p>
+        <a href="#" class="btn-news">Leia mais</a>
+    </div>
+</div>
+{% endblock %}
