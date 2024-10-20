@@ -16,7 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from app_equalspace import views
 
 urlpatterns = [
+    # rota, view responsável, nome de referência
     path('admin/', admin.site.urls),
+    path('', views.home, name='home'),
 ]
