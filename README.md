@@ -5,7 +5,7 @@ EqualSpace é uma aplicação web dedicada à promoção da igualdade de gênero
 ## FUNCIONALIDADES
 
 - **Biblioteca:** Um acervo online com informações que pautam igualdade de gênero
-- **Ferramenta de denúncia:** Como alguem que sofre ou sofreu descriminição, quero poder solicitar apoio policial direto da minha localidade
+- **Ferramenta de denúncia:** Como alguém que sofre ou sofreu discriminição, quero poder solicitar apoio policial direto da minha localidade
 - **Chat online:** Um chat online aberto para todos, encorajando discussões sobre os tópicos
 
 ## USO
