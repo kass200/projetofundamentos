@@ -27,7 +27,7 @@
           <a class="nav-link active" aria-current="page" href="home.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{% url 'noticias' %}">Notícias</a>
+          <a class="nav-link" href="noticias/">Notícias</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="perfil.html" >Perfil</a>
@@ -41,8 +41,9 @@
   </div>
 </nav>
 <style>
+  /* Css da Nav bar*/
   .navbar {
-    background-color: #333 !important; /* Cor de fundo escura */
+    background-color: #333 !important; 
     padding: 10px 20px;
  }
 
@@ -82,6 +83,8 @@
     background-color: #4CAF50;
     border-color: #4CAF50 !important;
  }
+
+  /* CSS DO BOTÃO "FAZER DENÚNCIA"*/
   .btn-roxo {
     display: inline-block;
     padding: 10px 20px;
@@ -95,9 +98,11 @@
     cursor: pointer;
   }
   .btn-roxo:hover {
-    background-color: #563e84; /* Cor mais escura ao passar o mouse */
+    background-color: #563e84; 
     border-color: #5a359e;
   }
+
+  /* Css dos cards de notícia mais relevante*/
   .news-container {
     display: flex;
     flex-wrap: wrap;
