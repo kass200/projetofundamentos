@@ -42,3 +42,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
  - **Link do drive, onde está o screencast do Lo-fi:** https://drive.google.com/drive/folders/0AAQJ6etTcvP9Uk9PVA
 
+## Entrega 2
+
+
