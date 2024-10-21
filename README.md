@@ -5,7 +5,7 @@ EqualSpace é uma aplicação web dedicada à promoção da igualdade de gênero
 ## FUNCIONALIDADES
 
 - **Biblioteca:** Um acervo online com informações que pautam igualdade de gênero
-- **Ferramenta de denúncia:** como alguem que sofre ou sofreu descriminição, quero poder solicitar apoio policial direto da minha localidade
+- **Ferramenta de denúncia:** Como alguem que sofre ou sofreu descriminição, quero poder solicitar apoio policial direto da minha localidade
 - **Chat online:** Um chat online aberto para todos, encorajando discussões sobre os tópicos
 
 ## USO
@@ -38,9 +38,9 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 - **Backlog**
 ![Backlog](imagens/Backlog%20Jira.png)
 - **diagrama de atividades**
-- ![diagrama](imagens/Diagrama%20de%20atividades_page-0001.jpg)
+- ![Diagrama](imagens/Diagrama%20de%20atividades_page-0001.jpg)
 - **trello**
-- ![trello](imagens/Captura%20de%20tela%202024-10-21%20200420.png)
+- ![Trello](imagens/Captura%20de%20tela%202024-10-21%20200420.png)
 
  - **Sketches/Storyboards:** https://www.figma.com/design/ZO84OXh7OwcOCs1hULaQJt/Untitled?node-id=0-1&node-type=CANVAS&t=nfoZZqEfO8grmmnM-0
 
