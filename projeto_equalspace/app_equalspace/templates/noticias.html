@@ -1,17 +1,164 @@
-{% extends 'base.html' %}
 {% load static %}
 
-{% block title %}Notícias{% endblock %}
-
 {% block content %}
-<h2 class="section-title">Todas as Notícias</h2>
-<div class="news-list">
-    <!-- Adicione aqui os cards das notícias, como já feito na página "home" -->
-    <div class="news-card">
-        <img src="{% static 'img/noticia1.jpg' %}" alt="Notícia 1" class="news-img">
-        <h3>Título da Notícia 1</h3>
-        <p>Resumo da notícia 1...</p>
-        <a href="#" class="btn-news">Leia mais</a>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Notícias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand text-white" href="#">EqualSpace</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="{% url 'noticias' %}">Notícias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="perfil.html">Perfil</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo da página -->
+    <div class="container mt-5">
+      <h1 class="text-center">Notícias</h1>
+
+      <div class="row mt-4">
+        <!-- Card 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="{% static 'img/noticia1.jpg' %}" class="card-img-top" alt="Notícia 1">
+            <div class="card-body">
+              <h5 class="card-title text-center">Brasil e o Relatório Global de Equidade de Gênero 2024</h5>
+              <p class="card-text">O Brasil caiu para a 70ª posição no Índice Global de Disparidade de Gênero, com uma pontuação de 71,6%...</p>
+              <a href="https://forbes.com.br/forbes-mulher/2024/06/estamos-a-134-anos-da-igualdade-de-genero-segundo-forum-economico-mundial/" class="btn btn-cyan w-100">Leia mais</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="{% static 'img/noticia2.jpg' %}" class="card-img-top" alt="Notícia 2">
+            <div class="card-body">
+              <h5 class="card-title text-center">Participação das Mulheres no Mercado de Trabalho</h5>
+              <p class="card-text">As mulheres representam 42% da força de trabalho global, mas ainda enfrentam barreiras...</p>
+              <a href="https://www.invistanosestudos.com.br/mulheres/brasil-no-relatorio-global-de-equidade-de-genero-2024-avancos-e-desafios/" class="btn btn-cyan w-100">Leia mais</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm h-100">
+            <img src="{% static 'img/noticia3.jpg' %}" class="card-img-top" alt="Notícia 3">
+            <div class="card-body">
+              <h5 class="card-title text-center">Relatório de Transparência Salarial no Brasil</h5>
+              <p class="card-text">O primeiro Relatório de Transparência Salarial revela que as mulheres recebem 19,4% menos que os homens...</p>
+              <a href="https://www.gov.br/secom/pt-br/assuntos/noticias/2024/03/mulheres-ganham-19-4-a-menos-que-os-homens-revela-1o-relatorio-de-transparencia-salarial" class="btn btn-cyan w-100">Leia mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paginação -->
+      <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center mt-4">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Anterior</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Próximo</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-</div>
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-white mt-5 py-3">
+      <p>© 2024 Equalspace. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Estilos CSS -->
+    <style>
+      body {
+        background-color: #f4f4f9;
+      }
+
+      h1.text-center {
+        color: #000000; /* Azul ciano */
+        border-bottom: 2px solid #00bcd4;
+        display: inline-block;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+
+      .card-title {
+        color: #000000; 
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center; 
+      }
+
+      .btn-cyan {
+        background-color: #00bcd4;
+        color: white;
+        border: none;
+        transition: 0.3s;
+      }
+
+      .btn-cyan:hover {
+        background-color: #0097a7; 
+        color: white;
+      }
+
+      .pagination .page-item .page-link {
+        color: #00bcd4;
+        border: 1px solid #dee2e6;
+      }
+
+      .pagination .page-item.active .page-link {
+        background-color: #00bcd4;
+        color: #fff;
+        border-color: #00bcd4;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+      }
+
+      .navbar-nav .nav-link:hover {
+        background-color: #00bcd4;
+        border-radius: 5px;
+        color: white !important;
+      }
+    </style>
+
+  </body>
+</html>
+
 {% endblock %}
