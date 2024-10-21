@@ -37,15 +37,16 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 ![KanBoard](imagens/Kan%20Board%20Jira.png)
 - **Backlog**
 ![Backlog](imagens/Backlog%20Jira.png)
-- **Diagrama de atividades**
- ![Diagrama](imagens/Diagrama%20de%20atividades_page-0001.jpg)
-- **Trello**
- ![Trello](imagens/Captura%20de%20tela%202024-10-21%20200420.png)
 
  - **Sketches/Storyboards:** https://www.figma.com/design/ZO84OXh7OwcOCs1hULaQJt/Untitled?node-id=0-1&node-type=CANVAS&t=nfoZZqEfO8grmmnM-0
 
  - **Link do drive, onde está o screencast do Lo-fi:** https://drive.google.com/drive/folders/0AAQJ6etTcvP9Uk9PVA
 
 ## Entrega 2
+
+- **Diagrama de atividades**
+ ![Diagrama](imagens/Diagrama%20de%20atividades_page-0001.jpg)
+- **Trello**
+ ![Trello](imagens/Captura%20de%20tela%202024-10-21%20200420.png)
 
 
