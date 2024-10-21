@@ -25,19 +25,16 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{% url 'noticias' %}">Notícias</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="perfil.html" >Perfil</a>
+          <a class="nav-link" href="{% url 'login' %}" >Perfil</a>
         </li>
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+
     </div>
   </div>
 </nav>
@@ -102,7 +99,24 @@
     background-color: #7e1bb7; 
     border-color: #7e1bb7;
   }
+  /*Css botão ligar para polícia*/
+  .btn-call-police {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px;
+  }
 
+  .btn-call-police:hover {
+    background-color: #ff3333;
+    transform: scale(1.05);
+  }
   /* Css dos cards de notícia mais relevante*/
   .news-container {
     display: flex;
@@ -195,9 +209,9 @@ footer {
 </style>
 
 <div class="d-grid gap-6 col-6 mx-auto">
-  <a href="https://servicos.sds.pe.gov.br/delegacia/" target="_blank" class="btn-roxo">
-    Fazer Denúncia
-  </a>
+  <a href="tel:+558133341790" class="btn btn-call-police">Ligar para a Polícia do Recife</a>
+  <br>
+  <a href="https://servicos.sds.pe.gov.br/delegacia/" target="_blank" class="btn-roxo">Fazer Denúncia</a>
 </div>
 
 <h2 class="section-title">Notícias Relevantes</h2>
@@ -226,7 +240,7 @@ footer {
   <!-- Card 3 -->
    
   <div class="news-card">
-    <img src="{% static 'img/transparencia_salarial.jpg' %}" alt="Relatório de Transparência Salarial" class="news-img">
+    <img src="/static/img/imagem_card3.jpg" alt="Relatório de Transparência Salarial" class="news-img">
     <h3>Relatório de Transparência Salarial no Brasil</h3>
     <p>O primeiro Relatório de Transparência Salarial revela que as mulheres recebem 19,4% menos que os homens no Brasil. 
     Apenas 32,6% das empresas têm políticas para incentivar a contratação de mulheres.</p>

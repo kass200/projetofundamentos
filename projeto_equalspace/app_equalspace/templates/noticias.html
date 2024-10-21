@@ -22,13 +22,13 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="home.html">Home</a>
+                <a class="nav-link active text-white" aria-current="page" href="{% url 'home' %}">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="{% url 'noticias' %}">Notícias</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="perfil.html">Perfil</a>
+                <a class="nav-link text-white" href="{% url 'login' %}">Perfil</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -71,7 +71,7 @@
         <!-- Card 3 -->
         <div class="col-md-4 mb-4">
           <div class="card shadow-sm h-100">
-            <img src="/static/img/observatorio_igualdade.jpg" class="card-img-top" alt="Notícia 3">
+            <img src="/static/img/imagem_card3.jpg" class="card-img-top" alt="Notícia 3">
             <div class="card-body">
               <h5 class="card-title text-center">Relatório de Transparência Salarial no Brasil</h5>
               <p class="card-text">O primeiro Relatório de Transparência Salarial revela que as mulheres recebem 19,4% menos que os homens...</p>

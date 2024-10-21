@@ -52,6 +52,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'projeto_equalspace.urls'
+LOGIN_REDIRECT_URL = 'home'
 
 TEMPLATES = [
     {
