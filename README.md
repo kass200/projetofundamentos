@@ -59,7 +59,8 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 - **Sketches/Storyboards:** [Visualizar no Figma](https://www.figma.com/design/ZO84OXh7OwcOCs1hULaQJt/Untitled?node-id=0-1&node-type=CANVAS&t=nfoZZqEfO8grmmnM-0)
 - **Screencast do Lo-fi:** [Acessar no Google Drive](https://drive.google.com/drive/folders/0AAQJ6etTcvP9Uk9PVA)
 
-### 🔄 Entrega 2
+---
+## 📂 Entrega 2
 
 - **Diagrama de Atividades:**\
   ![Diagrama](imagens/Diagrama_Atividades.png)\
