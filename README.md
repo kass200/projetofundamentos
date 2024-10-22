@@ -72,7 +72,10 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
   ![Trello](imagens/Captura%20de%20tela%202024-10-21%20200420.png)\
   [Link para o Trello](https://trello.com/invite/b/6716a746cd4fb3d536346e89/ATTI93e179592852d1de168cf6e6a03e0842BBBAB2BD/equalspace)
 
-- **Programação em Par:**\
-  _Adicionar imagem ou link relevante aqui_
+<details>
+  <summary><strong>Programação em Par</strong></summary>
 
+  [Acessar Pasta](./programacao_em_par/)
+
+</details>
 ---
