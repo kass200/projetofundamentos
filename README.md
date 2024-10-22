@@ -1,52 +1,75 @@
-# Equalspace - Uma plataforma criada para conscientizar e juntar defensores da igualdade de gênero
+# EqualSpace - Plataforma para a Conscientização e Defesa da Igualdade de Gênero
 
-EqualSpace é uma aplicação web dedicada à promoção da igualdade de gênero. A plataforma oferece informações abrangentes sobre temas relacionados à igualdade de gênero, como direitos, políticas, e práticas recomendadas. Além disso, inclui web chats interativos onde usuários podem participar de discussões abertas, compartilhar experiências, e debater soluções para questões de gênero. O EqualSpace visa criar um espaço seguro e inclusivo para o diálogo construtivo, formentando a conscientização e a ação coletiva em prol de um mundo mais igualitário.
+**EqualSpace** é uma aplicação web dedicada à promoção da igualdade de gênero. A plataforma oferece informações abrangentes sobre temas como direitos, políticas e práticas relacionadas à igualdade de gênero. Também inclui chats interativos, permitindo que os usuários participem de discussões, compartilhem experiências e debatam soluções. O EqualSpace visa criar um ambiente seguro e inclusivo para o diálogo construtivo, promovendo a conscientização e a ação coletiva por um mundo mais igualitário.
 
-## FUNCIONALIDADES
+---
 
-- **Biblioteca:** Um acervo online com informações que pautam igualdade de gênero
-- **Ferramenta de denúncia:** Como alguém que sofre ou sofreu discriminição, quero poder solicitar apoio policial direto da minha localidade
-- **Chat online:** Um chat online aberto para todos, encorajando discussões sobre os tópicos
+## ✨ Funcionalidades
 
-## USO
+- **📚 Biblioteca:** Acervo online com informações que pautam a igualdade de gênero.
+- **🚨 Ferramenta de Denúncia:** Permite que vítimas de discriminação solicitem apoio policial direto.
+- **💬 Chat Online:** Chat aberto para todos, encorajando discussões sobre os tópicos de igualdade de gênero.
 
-1. Acesse o link -->"o link"
-2. Cadastre sua conta e realize o login
-3. Explore os fóruns e bibliotecas disponíveis
+---
 
-## TECNOLOGIAS UTILIZADAS
+## 🚀 Uso
+
+1. Acesse o [site do EqualSpace](#).
+2. Cadastre sua conta e realize o login.
+3. Explore os fóruns, a biblioteca e participe das discussões!
+
+---
+
+## 🛠️ Tecnologias Utilizadas
 
 - **BackEnd:** Python/Django
-- **FrontEnd:** Html/css
-- **Banco de Dados:** Mysql
+- **FrontEnd:** HTML/CSS
+- **Banco de Dados:** MySQL
 
-## LICENÇA
+---
+
+## 📜 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## AUTORES DO PROJETO
+---
 
-**João de Medeiros Andrade** - *contribuidor* - [joca-000](https://github.com/joca-000)\
-**Igor José de Alcântara Soares** - *contribuidor* - [IgorSoaresss](https://github.com/IgorSoaresss)\
-**Eduardo Américo Bezerra da Silva** - *contribuidor* - [EduardoAmericoo](https://github.com/EduardoAmericoo)\
-**Karoline de Andrade Santiago** - *contribuidora* - [kass200](https://github.com/kass200)
+## 👥 Autores do Projeto
 
-## DOCUMENTAÇÃO
+| Nome                           | Contribuição   | GitHub                                         |
+|--------------------------------|----------------|------------------------------------------------|
+| João de Medeiros Andrade       | Contribuidor   | [joca-000](https://github.com/joca-000)        |
+| Igor José de Alcântara Soares  | Contribuidor   | [IgorSoaresss](https://github.com/IgorSoaresss)|
+| Eduardo Américo Bezerra da Silva | Contribuidor | [EduardoAmericoo](https://github.com/EduardoAmericoo) |
+| Karoline de Andrade Santiago   | Contribuidora  | [kass200](https://github.com/kass200)          |
 
-- **Quadro Jira**
-![KanBoard](imagens/Kan%20Board%20Jira.png)
-- **Backlog**
-![Backlog](imagens/Backlog%20Jira.png)
+---
 
- - **Sketches/Storyboards:** https://www.figma.com/design/ZO84OXh7OwcOCs1hULaQJt/Untitled?node-id=0-1&node-type=CANVAS&t=nfoZZqEfO8grmmnM-0
+## 📂 Entrega 1
 
- - **Link do drive, onde está o screencast do Lo-fi:** https://drive.google.com/drive/folders/0AAQJ6etTcvP9Uk9PVA
+### 🔄 Gerenciamento de Projeto
 
-## Entrega 2
+- **Quadro Jira:**\
+  ![KanBoard](imagens/Kan%20Board%20Jira.png)
+- **Backlog:**\
+  ![Backlog](imagens/Backlog%20Jira.png)
 
-- **Diagrama de atividades**
- ![Diagrama](imagens/Diagrama%20de%20atividades_page-0001.jpg)
-- **Trello**
- ![Trello](imagens/Captura%20de%20tela%202024-10-21%20200420.png)
+### 🎨 Design e Prototipagem
 
+- **Sketches/Storyboards:** [Visualizar no Figma](https://www.figma.com/design/ZO84OXh7OwcOCs1hULaQJt/Untitled?node-id=0-1&node-type=CANVAS&t=nfoZZqEfO8grmmnM-0)
+- **Screencast do Lo-fi:** [Acessar no Google Drive](https://drive.google.com/drive/folders/0AAQJ6etTcvP9Uk9PVA)
 
+### 🔄 Entrega 2
+
+- **Diagrama de Atividades:**\
+  ![Diagrama](imagens/Diagrama_Atividades.png)\
+  [Visualizar no Figma](https://www.figma.com/design/mIlrMwZlRQGVk2sKH0f8dd/Diagrama-de-atividades---Hist%C3%B3ria-3?node-id=0-1&node-type=canvas&t=z12aPCnwxuJEGVA9-0)
+
+- **Trello:**\
+  ![Trello](imagens/Captura%20de%20tela%202024-10-21%20200420.png)\
+  [Link para o Trello](https://trello.com/invite/b/6716a746cd4fb3d536346e89/ATTI93e179592852d1de168cf6e6a03e0842BBBAB2BD/equalspace)
+
+- **Programação em Par:**\
+  _Adicionar imagem ou link relevante aqui_
+
+---
