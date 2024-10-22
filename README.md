@@ -66,6 +66,8 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
   ![Diagrama](imagens/Diagrama_Atividades.png)\
   [Visualizar no Figma](https://www.figma.com/design/mIlrMwZlRQGVk2sKH0f8dd/Diagrama-de-atividades---Hist%C3%B3ria-3?node-id=0-1&node-type=canvas&t=z12aPCnwxuJEGVA9-0)
 
+### 🔄 Novo quadro de Gerenciamento do Projeto
+
 - **Trello:**\
   ![Trello](imagens/Captura%20de%20tela%202024-10-21%20200420.png)\
   [Link para o Trello](https://trello.com/invite/b/6716a746cd4fb3d536346e89/ATTI93e179592852d1de168cf6e6a03e0842BBBAB2BD/equalspace)
